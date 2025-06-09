@@ -137,6 +137,7 @@ h1 {
   background-image: url('assets/portada.png');
   background-size: cover;
   background-position: center;
+  backface-visibility: hidden;
 }
 
 .back {
@@ -152,6 +153,7 @@ h1 {
   white-space: pre-wrap;
   box-sizing: border-box;
   overscroll-behavior: contain;
+  backface-visibility: hidden;
 }
 
 .floating-emoji {
